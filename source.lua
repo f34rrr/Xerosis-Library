@@ -1,6 +1,6 @@
 local library = {}
 
-function library:CreateWindow(title)
+function library:CreateWindow()
     local SG = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
     Main.Parent = SG
@@ -52,7 +52,7 @@ function library:CreateWindow(title)
             local Title = Instance.new("TextLabel")
             local round = Instance.new("UICorner")
             local rounded = Instance.new("UICorner")
-            Title.Text = title
+            Title.Text = "Xerosis"
             Title.Parent = Main
             Title.Font = "GothamBlack"
             Title.FontSize = Enum.FontSize.Size24
